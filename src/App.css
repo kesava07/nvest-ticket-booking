@@ -54,7 +54,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .Auto_wheel {
-    animation: App-logo-spin infinite 5s linear;
+    animation: App-logo-spin infinite 1s linear;
   }
 }
 
@@ -127,4 +127,11 @@
   right: 20px;
   top: 20px;
   z-index: 1000;
+}
+.pin_alignment{
+  font-size: 25px;
+  margin: 0 15px;
+  border-bottom: 3px solid #1c6ab4;
+  width: 20px;
+  display: inline-block;
 }

@@ -8,9 +8,11 @@ const KeyBoard = (props) => {
             <div className="card card-body">
                 <div className="ticket_number">
                     {ticketNumber.length === 0 && <span className="danger-badge">Enter 6 digits</span>}
-                    {ticketNumber && ticketNumber.map((num, i) => (
-                        <span key={i} className="d-inline">{num}</span>
-                    ))}
+                    <div className="text-center">
+                        {ticketNumber && ticketNumber.map((num, i) => (
+                            <span key={i} className="pin_alignment">{num}</span>
+                        ))}
+                    </div>
                 </div>
                 <div className="board-row">
                     {keyDigits.map(digit => (

@@ -92,7 +92,7 @@ function App() {
     setError(error);
     setTimeout(() => {
       setError("");
-    }, 1500)
+    }, 2000)
   }
 
   return (
